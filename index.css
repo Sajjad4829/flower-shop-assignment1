@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+
+/* header-section */
+
 .header-section {
     height: 480px;
     width: 100%;
@@ -157,6 +160,51 @@ img {
 
 .hot-deals-image {
     width: 200px;
+}
+
+
+/* image-gallary */
+
+.image-gallary-section {
+    height: 100vh;
+    max-width: 850px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 50px;
+    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.069);
+}
+
+.image-gallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 60px;
+    padding: 20px;
+    margin: auto;
+}
+
+.images {
+    width: 230px;
+    height: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.075);
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.sp {
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 
