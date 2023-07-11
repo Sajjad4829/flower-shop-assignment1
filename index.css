@@ -97,7 +97,7 @@ img {
 .contact-section {
     height: 330px;
     width: 1060px;
-    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-image: url("Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     margin: 50px auto;
     background-size: cover;
