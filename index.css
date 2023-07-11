@@ -119,6 +119,47 @@ img {
 }
 
 
+/* hot-deals-section */
+
+.hot-deals-section {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: #FCEEF1;
+    margin-top: 100px;
+}
+
+.left-hot-deals-contain {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hot-deals-head {
+    color: #272727;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-hot-deals-contain {
+    height: 300px;
+}
+
+.img {
+    width: 100%;
+}
+
+.hot-deals-image {
+    width: 200px;
+}
+
+
 /* social-section*/
 
 .social-secion {
