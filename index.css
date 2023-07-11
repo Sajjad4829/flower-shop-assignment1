@@ -68,18 +68,18 @@ img {
 .featured {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .feature {
     background: rgb(204, 115, 115);
-    margin-right: 20px;
+    margin-right: 23px;
     padding: 80px 40px 0px 40px;
     border-radius: 50% 50% 0px 0px;
 }
 
 .feature img {
-    width: 160px;
+    width: 165px;
     height: 180px;
 }
 
@@ -95,6 +95,30 @@ img {
 }
 
 
+/* service-section-start */
+
+.service-section {
+    max-width: 800px;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 70px 0px;
+    background-color: #F4F4F4;
+}
+
+.service-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    text-align: center;
+}
+
+.service-contain img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+
 /* social-section*/
 
 .social-secion {
@@ -107,7 +131,7 @@ img {
     font-size: 25px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 10px;
 }
 
@@ -118,6 +142,7 @@ img {
     font-size: 13px;
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .image-section {
@@ -132,7 +157,7 @@ img {
 }
 
 .contact-section {
-    height: 330px;
+    height: 300px;
     width: 1060px;
     background-image: url("Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
@@ -140,19 +165,6 @@ img {
     background-size: cover;
     border-radius: 10px;
 }
-
-
-/* .contact-form {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .contact-head {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    } */
 
 .contact-section {
     display: flex;
@@ -175,5 +187,14 @@ input[type=text] {
     color: #272727;
     font-size: 12px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.inner-content-head {
+    color: #272727;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
 }
